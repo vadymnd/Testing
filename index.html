@@ -1,0 +1,346 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link
+      rel="shortcut icon"
+      href="img/favicon.ico"
+    />
+    <title>Funtest-Let's explore your interesting soul together</title>
+    <link
+      rel="stylesheet"
+      href="css/reset.css"
+    />
+    <link
+      rel="stylesheet"
+      href="css/index.css"
+    />
+    <style>
+      .HuiTab {
+        padding: 0 0.3rem;
+      }
+      .clearfix:after {
+        content: "\20";
+        display: block;
+        height: 0;
+        clear: both;
+        visibility: hidden;
+      }
+
+      .clearfix {
+        zoom: 1;
+      }
+      .tabBar::-webkit-scrollbar {
+        display: none;
+      }
+      .tabBar div {
+        width: 25%;
+        height: 100%;
+        float: left;
+        overflow: hidden;
+
+        color: #fff;
+        text-align: center;
+      }
+      .tabBar div p.img {
+        width: 1.6rem;
+        height: 1.6rem;
+        display: inline-block;
+      }
+      .tabBar div:nth-of-type(1) p.img {
+        background: url("//s.dailyreadingnews.com/app/t1/tem2/img/hot.png")
+          center center no-repeat;
+        background-size: cover;
+      }
+      .tabBar div:nth-of-type(2) p.img {
+        background: url("//s.dailyreadingnews.com/app/t1/tem2/img/em.png")
+          center center no-repeat;
+        background-size: cover;
+      }
+      .tabBar div:nth-of-type(3) p.img {
+        background: url("//s.dailyreadingnews.com/app/t1/tem2/img/fun.png")
+          center center no-repeat;
+        background-size: cover;
+      }
+      .tabBar div:nth-of-type(4) p.img {
+        background: url("//s.dailyreadingnews.com/app/t1/tem2/img/char.png")
+          center center no-repeat;
+        background-size: cover;
+      }
+      .tabBar p.text {
+        display: inline-block;
+        text-align: center;
+        font-size: 0.35rem;
+        line-height: 0.39rem;
+        color: #000;
+        /* word-break: break-all; */
+        white-space: pre-line;
+        vertical-align: text-top;
+      }
+      .tabBar div.current p.text {
+        color: #000;
+        font-weight: bold;
+      }
+
+      .tabCon {
+        display: none;
+      }
+    </style>
+  </head>
+
+  <body>
+    
+    <div class="container">
+      <header class="header">
+        <img src="img/logo.png" alt="" />
+      </header>
+      <div class="ins-box mask list1" id="list1">
+        <p class="GgStyleTop">ADVERTISEMENT</p>
+      </div>
+      <div id="tab_demo" class="HuiTab">
+        <div class="tabBar clearfix">
+          <div class="hot_tit current" tag="hot">
+            <p class="img"></p>
+            <p class="text">Hot Test</p>
+          </div>
+          <div class="emotional_tit" tag="emotion">
+            <p class="img"></p>
+            <p class="text">Emotional Test</p>
+          </div>
+          <div class="fun_tit" tag="fun">
+            <p class="img"></p>
+            <p class="text">Fun Test</p>
+          </div>
+          <div class="character_tit" tag="character">
+            <p class="img"></p>
+            <p class="text">Character Test</p>
+          </div>
+        </div>
+        <h3 class="rec">Recommend</h3>
+
+        <div class="tabCon content" style="display: block;">
+          <div class="contents-box">
+            <div class="hotTest-box">
+              <section class="section-tpl">
+                <img class="card-img" src="" alt="" />
+                <div class="card-center">
+                  <h2 class="card-name"></h2>
+                  <p class="mid"><span class="star-small"></span></p>
+                </div>
+                <i class="card-icon"></i>
+              </section>
+              <a href="testing-1.html">
+                <section class="section-item">
+                    <img
+                      class="card-img"
+                      src="img/1058.jpg"
+                      alt=""
+                    />
+                    <div class="card-center">
+                      <h2 class="card-name">
+                        Will your luck get better after you fall in love?
+                      </h2>
+                      <p class="mid">
+                        <span class="star-small"
+                          ><i class="iconfont icon-xingxing"></i
+                          ><i class="iconfont icon-xingxing"></i
+                          ><i class="iconfont icon-xingxing"></i
+                          ><i class="iconfont icon-xingxing"></i
+                        ></span>
+                      </p>
+                    </div>
+                    <i class="card-icon"></i>
+                  </section>
+              </a>
+              <a href="testing-2.html">
+              <section class="section-item">
+                  <img
+                    class="card-img"
+                    src="img/963.jpg"
+                    alt=""
+                  />
+                  <div class="card-center">
+                    <h2 class="card-name">
+                      Does your husband question your loyalty?
+                    </h2>
+                    <p class="mid">
+                      <span class="star-small"
+                        ><i class="iconfont icon-xingxing"></i
+                        ><i class="iconfont icon-xingxing"></i
+                        ><i class="iconfont icon-xingxing"></i
+                        ><i class="iconfont icon-xingxing"></i
+                      ></span>
+                    </p>
+                  </div>
+                  <i class="card-icon"></i>
+                </section>
+              </a>
+              <div class="ins-box mask list2" id="list2">
+                <p class="GgStyleTop">ADVERTISEMENT</p>
+              </div>
+              <a href="testing-3.html">
+              <section class="section-item">
+                  <img
+                    class="card-img"
+                    src="img/972.jpg"
+                    alt=""
+                  />
+                  <div class="card-center">
+                    <h2 class="card-name">
+                      Are you likely to encounter a man's domestic violence after
+                      you get married?
+                    </h2>
+                    <p class="mid">
+                      <span class="star-small"
+                        ><i class="iconfont icon-xingxing"></i
+                        ><i class="iconfont icon-xingxing"></i
+                        ><i class="iconfont icon-xingxing"></i
+                        ><i class="iconfont icon-xingxing"></i
+                      ></span>
+                    </p>
+                  </div>
+                  <i class="card-icon"></i>
+                </section>
+              </a>
+              <a href="testing-4.html">
+              <section class="section-item">
+                  <img
+                    class="card-img"
+                    src="img/1041.jpg"
+                    alt=""
+                  />
+                  <div class="card-center">
+                    <h2 class="card-name">
+                      Do you have a full femininity in his eyes?
+                    </h2>
+                    <p class="mid">
+                      <span class="star-small"
+                        ><i class="iconfont icon-xingxing"></i
+                        ><i class="iconfont icon-xingxing"></i
+                        ><i class="iconfont icon-xingxing"></i
+                        ><i class="iconfont icon-xingxing"></i
+                      ></span>
+                    </p>
+                  </div>
+                  <i class="card-icon"></i>
+                </section>
+              </a>
+              <a href="testing-5.html">
+              <section class="section-item">
+                  <img
+                    class="card-img"
+                    src="img/1040.jpg"
+                    alt=""
+                  />
+                  <div class="card-center">
+                    <h2 class="card-name">
+                      How do you react when you dream of a crush
+                    </h2>
+                    <p class="mid">
+                      <span class="star-small"
+                        ><i class="iconfont icon-xingxing"></i
+                        ><i class="iconfont icon-xingxing"></i
+                        ><i class="iconfont icon-xingxing"></i
+                        ><i class="iconfont icon-xingxing"></i
+                      ></span>
+                    </p>
+                  </div>
+                  <i class="card-icon"></i>
+                </section>
+              </a>
+              <a href="testing-6.html">
+              <section class="section-item">
+                  <img
+                    class="card-img"
+                    src="img/1054.jpg"
+                    alt=""
+                  />
+                  <div class="card-center">
+                    <h2 class="card-name">
+                      Will you suffer silently in the face of your lover's
+                      neglect?
+                    </h2>
+                    <p class="mid">
+                      <span class="star-small"
+                        ><i class="iconfont icon-xingxing"></i
+                        ><i class="iconfont icon-xingxing"></i
+                        ><i class="iconfont icon-xingxing"></i
+                        ><i class="iconfont icon-xingxing"></i
+                      ></span>
+                    </p>
+                  </div>
+                  <i class="card-icon"></i>
+                </section>
+              </a>
+              <a href="testing-7.html">
+              <section class="section-item">
+                  <img
+                    class="card-img"
+                    src="img/959.jpg"
+                    alt=""
+                  />
+                  <div class="card-center">
+                    <h2 class="card-name">
+                      Does your man change his mind easily?
+                    </h2>
+                    <p class="mid">
+                      <span class="star-small"
+                        ><i class="iconfont icon-xingxing"></i
+                        ><i class="iconfont icon-xingxing"></i
+                        ><i class="iconfont icon-xingxing"></i
+                        ><i class="iconfont icon-xingxing"></i
+                        ><i class="iconfont icon-xingxing"></i
+                      ></span>
+                    </p>
+                  </div>
+                  <i class="card-icon"></i>
+                </section>
+              </a>
+              <a href="testing-8.html">
+              <section class="section-item">
+                  <img
+                    class="card-img"
+                    src="img/960.jpg"
+                    alt=""
+                  />
+                  <div class="card-center">
+                    <h2 class="card-name">Measure how flowery he is.</h2>
+                    <p class="mid">
+                      <span class="star-small"
+                        ><i class="iconfont icon-xingxing"></i
+                        ><i class="iconfont icon-xingxing"></i
+                        ><i class="iconfont icon-xingxing"></i
+                        ><i class="iconfont icon-xingxing"></i
+                      ></span>
+                    </p>
+                  </div>
+                  <i class="card-icon"></i>
+                </section>
+              </a>
+            </div>
+            <div class="bottom-btn">
+              <a href="testing-1.html" class="next-btn" id="hot-btn">
+                <span class="next_tit">Continue Browsing</span>
+              </a>
+            </div>
+          </div>
+        </div>
+        
+      </div>
+      <div class="ins-box mask list3" id="list3">
+        <p class="GgStyleTop">ADVERTISEMENT</p>
+      </div>
+      <footer class="app-foot">
+        <div class="copyright font-noto-regular">
+          Copyright © 2020 Funtest. All rights Reserved.
+        </div>
+      </footer>
+    </div>
+
+    <div style="min-height: 10%;" class="ins-box mask list4" id="list4"> 
+      <p class="GgStyleTop">ADVERTISEMENT</p>
+    </div>
+  </body>
+</html>

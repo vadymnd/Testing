@@ -1,0 +1,540 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="shortcut icon" href="img/favicon.ico" />
+    <title>Funtest-Let's explore your interesting soul together</title>
+    <link rel="stylesheet" href="css/reset.css" />
+    <link rel="stylesheet" href="css/index.css" />
+    <link rel="stylesheet" href="css/detail.css" />
+    <style>
+      .contents-box .testing-content {
+        width: 100%;
+        padding: 0.3rem 0 0.6rem;
+      }
+      .contents-box .testing-content .title {
+        font-size: 0.44rem;
+        color: #000;
+        text-align: center;
+        font-weight: 600;
+        margin-bottom: 0.4rem;
+        line-height: 0.6rem;
+      }
+      .answer-box {
+        margin-bottom: 0.3rem;
+        min-height: 1.1rem;
+        display: flex;
+        border-radius: 5px;
+        overflow: hidden;
+      }
+      .answer-box .Letter {
+        flex: 0 0 1.1rem;
+        text-align: center;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-color: #ad9ae2;
+        color: #fff;
+        font-size: 0.4rem;
+        font-weight: 600;
+      }
+      .contents-box .testing-content .answer {
+        flex: 1;
+        padding: 0 0.4rem;
+        box-sizing: border-box;
+        background: #f2f2f2;
+        outline: none;
+        font-size: 0.4rem;
+        color: #000;
+        line-height: 0.4rem;
+      }
+      .ins-box {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+      }
+      .contents-box .card-tit {
+        font-size: 0.32rem;
+        color: #979797;
+        margin-top: 0.44rem;
+      }
+      .content {
+        margin-top: 0.68rem;
+        padding: 0 0.6rem;
+      }
+      .may-like {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+      }
+      .may-like h3 {
+        align-self: flex-start;
+      }
+      .contents-box .testing-content .answer-img {
+        overflow: hidden;
+      }
+      .contents-box .testing-content .answer-img .answer {
+        width: 100%;
+        min-height: 300px;
+        background-size: 100%;
+        padding: 0;
+      }
+    </style>
+  </head>
+
+  <body>
+    <div class="container">
+      <header class="header">
+        <h1 class="logo-img">
+          <a href="index.html" class="backTag_a">
+            <img src="img/logo.png" alt="" />
+          </a>
+        </h1>
+      </header>
+      <div class="content">
+        <div class="contents-box">
+          <div style="display: none;" class="testing-content">
+            <div>
+              <h3 class="title">
+                1. Do you usually like to watch Korean dramas?
+              </h3>
+              <div class="answer-box">
+                <span class="Letter">A</span
+                ><button class="answer" data-answervalue="2">like</button>
+              </div>
+              <div class="answer-box">
+                <span class="Letter">B</span
+                ><button class="answer" data-answervalue="3">dislike</button>
+              </div>
+              <div class="answer-box">
+                <span class="Letter">C</span
+                ><button class="answer" data-answervalue="4">Okay</button>
+              </div>
+            </div>
+          </div>
+
+          <div style="display: none;" class="testing-content">
+            <div>
+              <h3 class="title">
+                2. What kind of people do you want to live with?
+              </h3>
+              <div class="answer-box">
+                <span class="Letter">A</span
+                ><button class="answer" data-answervalue="3">
+                  A lively and interesting person
+                </button>
+              </div>
+              <div class="answer-box">
+                <span class="Letter">B</span
+                ><button class="answer" data-answervalue="4">
+                  A man with a good face
+                </button>
+              </div>
+              <div class="answer-box">
+                <span class="Letter">C</span
+                ><button class="answer" data-answervalue="5">
+                  A gentle and considerate person
+                </button>
+              </div>
+            </div>
+          </div>
+
+          <div style="display: none;" class="testing-content">
+            <div>
+              <h3 class="title">3. Do you often play games?</h3>
+              <div class="answer-box">
+                <span class="Letter">A</span
+                ><button class="answer" data-answervalue="4">often</button>
+              </div>
+              <div class="answer-box">
+                <span class="Letter">B</span
+                ><button class="answer" data-answervalue="5">Never</button>
+              </div>
+              <div class="answer-box">
+                <span class="Letter">C</span
+                ><button class="answer" data-answervalue="6">
+                  occasionally
+                </button>
+              </div>
+            </div>
+          </div>
+
+          <div style="display: none;" class="testing-content">
+            <div>
+              <h3 class="title">4. Have you ever shed tears for love?</h3>
+              <div class="answer-box">
+                <span class="Letter">A</span
+                ><button class="answer" data-answervalue="5">flow past</button>
+              </div>
+              <div class="answer-box">
+                <span class="Letter">B</span
+                ><button class="answer" data-answervalue="6">
+                  there has never been
+                </button>
+              </div>
+              <div class="answer-box">
+                <span class="Letter">C</span
+                ><button class="answer" data-answervalue="7">
+                  Can not remember
+                </button>
+              </div>
+            </div>
+          </div>
+
+          <div style="display: none;" class="testing-content">
+            <div>
+              <h3 class="title">
+                5, Would you like to help someone when your friend asked you too
+                much?
+              </h3>
+              <div class="answer-box">
+                <span class="Letter">A</span
+                ><button class="answer" data-answervalue="6">willing</button>
+              </div>
+              <div class="answer-box">
+                <span class="Letter">B</span
+                ><button class="answer" data-answervalue="7">
+                  I don't want to
+                </button>
+              </div>
+              <div class="answer-box">
+                <span class="Letter">C</span
+                ><button class="answer" data-answervalue="8">
+                  Look at the situation
+                </button>
+              </div>
+            </div>
+          </div>
+
+          <div style="display: none;" class="testing-content">
+            <div>
+              <h3 class="title">
+                6. What kind of bag do you like when you go out?
+              </h3>
+              <div class="answer-box">
+                <span class="Letter">A</span
+                ><button class="answer" data-answervalue="7">handbag</button>
+              </div>
+              <div class="answer-box">
+                <span class="Letter">B</span
+                ><button class="answer" data-answervalue="8">backpack</button>
+              </div>
+              <div class="answer-box">
+                <span class="Letter">C</span
+                ><button class="answer" data-answervalue="A">
+                  I don't like to use the bag
+                </button>
+              </div>
+            </div>
+          </div>
+
+          <div style="display: none;" class="testing-content">
+            <div>
+              <h3 class="title">
+                7. What do you think of the movie Spring in the Cowboy Class
+              </h3>
+              <div class="answer-box">
+                <span class="Letter">A</span
+                ><button class="answer" data-answervalue="8">very nice</button>
+              </div>
+              <div class="answer-box">
+                <span class="Letter">B</span
+                ><button class="answer" data-answervalue="9">Not good</button>
+              </div>
+              <div class="answer-box">
+                <span class="Letter">C</span
+                ><button class="answer" data-answervalue="10">
+                  Don't understand
+                </button>
+              </div>
+            </div>
+          </div>
+
+          <div style="display: none;" class="testing-content">
+            <div>
+              <h3 class="title">
+                8. If time goes by, how many years do you want to go back?
+              </h3>
+              <div class="answer-box">
+                <span class="Letter">A</span
+                ><button class="answer" data-answervalue="9">a year ago</button>
+              </div>
+              <div class="answer-box">
+                <span class="Letter">B</span
+                ><button class="answer" data-answervalue="B">
+                  five years ago
+                </button>
+              </div>
+              <div class="answer-box">
+                <span class="Letter">C</span
+                ><button class="answer" data-answervalue="A">
+                  10 years ago
+                </button>
+              </div>
+            </div>
+          </div>
+
+          <div style="display: none;" class="testing-content">
+            <div>
+              <h3 class="title">
+                9. Which of the following songs do you like the most?
+              </h3>
+              <div class="answer-box">
+                <span class="Letter">A</span
+                ><button class="answer" data-answervalue="C">
+                  The forest in Norway
+                </button>
+              </div>
+              <div class="answer-box">
+                <span class="Letter">B</span
+                ><button class="answer" data-answervalue="D">Taoxiang</button>
+              </div>
+              <div class="answer-box">
+                <span class="Letter">C</span
+                ><button class="answer" data-answervalue="B">
+                  Pink memories
+                </button>
+              </div>
+            </div>
+          </div>
+
+          <div class="swiper-container">
+            <div class="swiper-wrapper">
+              <div class="swiper-slide">
+                <div class="card">
+                  <img
+                    class="card-img"
+                    src="http://s.dailyreadingnews.com/app/t1/pic/1058.jpg"
+                    alt=""
+                  />
+                  <h3 class="card-name">
+                    Will your luck get better after you fall in love?
+                  </h3>
+                  <div class="ins-box mask list1" id="list1">
+                    <p class="GgStyleTop">ADVERTISEMENT</p>
+                  </div>
+                  <h3 class="card-desc">
+                    <span class="desc-content show"
+                      >Many people feel unlucky and have bad luck when they
+                      encounter things that don't go well in their lives or
+                      work. However, after I fell in love, I felt very lucky.
+                      This is why some people have a good mood, but it is
+                      because love has changed some of your subconscious minds
+                      and opinions, making you more comfortable, and luck is
+                      better. So, will the luck of falling in love be better?
+                      Test it and you will know the answer. Let's take a love
+                      test together!</span
+                    >
+                  </h3>
+                  <div class="shares">
+                    <div class="test">
+                      <button class="next-btn" id="start-test">
+                        <span>Start Test</span>
+                      </button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="tabCon content" style="display: block;">
+            <div class="contents-box">
+              <div class="hotTest-box">
+                <section class="section-tpl">
+                  <img class="card-img" src="" alt="" />
+                  <div class="card-center">
+                    <h2 class="card-name"></h2>
+                    <p class="mid"><span class="star-small"></span></p>
+                  </div>
+                  <i class="card-icon"></i>
+                </section>
+                <a href="testing-1.html">
+                  <section class="section-item">
+                      <img
+                        class="card-img"
+                        src="img/1058.jpg"
+                        alt=""
+                      />
+                      <div class="card-center">
+                        <h2 class="card-name">
+                          Will your luck get better after you fall in love?
+                        </h2>
+                        <p class="mid">
+                          <span class="star-small"
+                            ><i class="iconfont icon-xingxing"></i
+                            ><i class="iconfont icon-xingxing"></i
+                            ><i class="iconfont icon-xingxing"></i
+                            ><i class="iconfont icon-xingxing"></i
+                          ></span>
+                        </p>
+                      </div>
+                      <i class="card-icon"></i>
+                    </section>
+                </a>
+                <a href="testing-2.html">
+                  <section class="section-item">
+                    <img class="card-img" src="img/963.jpg" alt="" />
+                    <div class="card-center">
+                      <h2 class="card-name">
+                        Does your husband question your loyalty?
+                      </h2>
+                      <p class="mid">
+                        <span class="star-small"
+                          ><i class="iconfont icon-xingxing"></i
+                          ><i class="iconfont icon-xingxing"></i
+                          ><i class="iconfont icon-xingxing"></i
+                          ><i class="iconfont icon-xingxing"></i
+                        ></span>
+                      </p>
+                    </div>
+                    <i class="card-icon"></i>
+                  </section>
+                </a>
+                <div class="ins-box mask list2" id="list2">
+                  <p class="GgStyleTop">ADVERTISEMENT</p>
+                </div>
+                <a href="testing-3.html">
+                  <section class="section-item">
+                    <img class="card-img" src="img/972.jpg" alt="" />
+                    <div class="card-center">
+                      <h2 class="card-name">
+                        Are you likely to encounter a man's domestic violence
+                        after you get married?
+                      </h2>
+                      <p class="mid">
+                        <span class="star-small"
+                          ><i class="iconfont icon-xingxing"></i
+                          ><i class="iconfont icon-xingxing"></i
+                          ><i class="iconfont icon-xingxing"></i
+                          ><i class="iconfont icon-xingxing"></i
+                        ></span>
+                      </p>
+                    </div>
+                    <i class="card-icon"></i>
+                  </section>
+                </a>
+                <a href="testing-4.html">
+                  <section class="section-item">
+                    <img class="card-img" src="img/1041.jpg" alt="" />
+                    <div class="card-center">
+                      <h2 class="card-name">
+                        Do you have a full femininity in his eyes?
+                      </h2>
+                      <p class="mid">
+                        <span class="star-small"
+                          ><i class="iconfont icon-xingxing"></i
+                          ><i class="iconfont icon-xingxing"></i
+                          ><i class="iconfont icon-xingxing"></i
+                          ><i class="iconfont icon-xingxing"></i
+                        ></span>
+                      </p>
+                    </div>
+                    <i class="card-icon"></i>
+                  </section>
+                </a>
+                <a href="testing-5.html">
+                  <section class="section-item">
+                    <img class="card-img" src="img/1040.jpg" alt="" />
+                    <div class="card-center">
+                      <h2 class="card-name">
+                        How do you react when you dream of a crush
+                      </h2>
+                      <p class="mid">
+                        <span class="star-small"
+                          ><i class="iconfont icon-xingxing"></i
+                          ><i class="iconfont icon-xingxing"></i
+                          ><i class="iconfont icon-xingxing"></i
+                          ><i class="iconfont icon-xingxing"></i
+                        ></span>
+                      </p>
+                    </div>
+                    <i class="card-icon"></i>
+                  </section>
+                </a>
+                <a href="testing-6.html">
+                  <section class="section-item">
+                    <img class="card-img" src="img/1054.jpg" alt="" />
+                    <div class="card-center">
+                      <h2 class="card-name">
+                        Will you suffer silently in the face of your lover's
+                        neglect?
+                      </h2>
+                      <p class="mid">
+                        <span class="star-small"
+                          ><i class="iconfont icon-xingxing"></i
+                          ><i class="iconfont icon-xingxing"></i
+                          ><i class="iconfont icon-xingxing"></i
+                          ><i class="iconfont icon-xingxing"></i
+                        ></span>
+                      </p>
+                    </div>
+                    <i class="card-icon"></i>
+                  </section>
+                </a>
+                <!-- <a href="testing-7.html">
+                  <section class="section-item">
+                    <img class="card-img" src="img/959.jpg" alt="" />
+                    <div class="card-center">
+                      <h2 class="card-name">
+                        Does your man change his mind easily?
+                      </h2>
+                      <p class="mid">
+                        <span class="star-small"
+                          ><i class="iconfont icon-xingxing"></i
+                          ><i class="iconfont icon-xingxing"></i
+                          ><i class="iconfont icon-xingxing"></i
+                          ><i class="iconfont icon-xingxing"></i
+                          ><i class="iconfont icon-xingxing"></i
+                        ></span>
+                      </p>
+                    </div>
+                    <i class="card-icon"></i>
+                  </section>
+                </a> -->
+                <a href="testing-8.html">
+                  <section class="section-item">
+                    <img class="card-img" src="img/960.jpg" alt="" />
+                    <div class="card-center">
+                      <h2 class="card-name">Measure how flowery he is.</h2>
+                      <p class="mid">
+                        <span class="star-small"
+                          ><i class="iconfont icon-xingxing"></i
+                          ><i class="iconfont icon-xingxing"></i
+                          ><i class="iconfont icon-xingxing"></i
+                          ><i class="iconfont icon-xingxing"></i
+                        ></span>
+                      </p>
+                    </div>
+                    <i class="card-icon"></i>
+                  </section>
+                </a>
+              </div>
+              <div class="bottom-btn">
+                <a href="testing-1.html" class="next-btn" id="hot-btn">
+                  <span class="next_tit">Continue Browsing</span>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="ins-box mask list3" id="list3">
+        <p class="GgStyleTop">ADVERTISEMENT</p>
+      </div>
+      <footer class="app-foot">
+        <div class="copyright font-noto-regular">
+          Copyright © 2019 Funtest. All rights Reserved.
+        </div>
+      </footer>
+    </div>
+
+    <div style="min-height: 10%;" class="ins-box mask list4" id="list4">
+      <p class="GgStyleTop">ADVERTISEMENT</p>
+    </div>
+
+    <script src="testing.js"></script>
+  </body>
+</html>

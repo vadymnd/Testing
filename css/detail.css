@@ -1,0 +1,191 @@
+.card,
+.swiper-container {
+  width: 100%;
+}
+.card .card-desc,
+.container {
+  position: relative;
+}
+.card,
+.card .card-name,
+.card .shares,
+.card .shares .share {
+  box-sizing: border-box;
+}
+.content {
+  padding: 0.45rem 0.6rem;
+}
+.contents-box .card-tit {
+  font-size: 0.32rem;
+  color: #979797;
+  margin-top: 0.44rem;
+}
+.card {
+  color: #fff;
+}
+.card .card-img {
+  display: block;
+  width: 100%;
+  border-radius: 0.15rem;
+}
+.card .card-name {
+  font-size: 0.36rem;
+  overflow: hidden;
+  text-align: left;
+  padding: 0.46rem 0;
+  font-family: Heiti TC;
+  font-weight: 600;
+  line-height: 0.5rem;
+  color: #000;
+}
+.card .card-desc {
+  font-size: 0.32rem;
+  padding: 0.6rem 0;
+}
+.card .card-desc .desc-content {
+  -webkit-box-orient: vertical;
+  color: #999;
+  text-align: justify;
+  overflow: hidden;
+  font-family: Heiti TC;
+  text-overflow: -o-ellipsis-lastline;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  line-height: 0.6rem;
+}
+.card .card-desc .show1 {
+  color: #15298e;
+  font-family: Heiti TC;
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  background-color: #fff;
+  padding-left: 0.4407407407407407rem;
+  background-image: url(../img/down.png);
+  background-repeat: no-repeat;
+  background-position: 0.08629629629629629rem;
+  background-size: 0.25925925925925924rem;
+}
+.card .card-desc .desc-content.show {
+  display: block;
+  overflow: inherit;
+  font-size: 0.32rem;
+  color: #7e7a7a;
+}
+.card .bottom-btn .next-btn,
+.card .tip {
+  font-family: Heiti TC;
+  color: #fff;
+  text-align: center;
+}
+.card .bottom-btn .next-btn {
+  display: inline-block;
+  width: 4.444444444444445rem;
+  height: 1.0555555555555556rem;
+  line-height: 1.0555555555555556rem;
+  font-size: 0.3888888888888889rem;
+  border: none;
+  outline: 0;
+  border-radius: 0.07407407407407407rem;
+  margin: 0.4444444444444444rem auto 0;
+  box-shadow: 0 1px 2px 0 rgba(66, 64, 127, 0.3);
+  background: rgba(0, 0, 0, 1);
+  text-indent: inherit;
+}
+.may-like {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-top: 1px solid #e5e5e5;
+}
+.may-like h3 {
+  align-self: flex-start;
+}
+.section-tpl {
+  display: none;
+}
+.may-like .section-item:last-child {
+  border-bottom: none;
+}
+.card .tip {
+  font-size: 0.2962962962962963rem;
+  margin: 0.3333333333333333rem 0 0.66rem;
+  line-height: 0.4rem;
+}
+.card .shares {
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 0.7037037037037037rem;
+}
+.card .shares .share:nth-of-type(1) {
+  float: left;
+}
+.card .shares .test {
+  float: right;
+  width: 2.94rem;
+  height: 0.86rem;
+  background-color: #8353eb;
+  border-radius: 1.81rem;
+}
+.card .shares .test .next-btn {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+}
+.card .shares .share {
+  float: left;
+  width: 2.94rem;
+  height: 0.86rem;
+  border: 2px solid #8353eb;
+  border-radius: 1.81rem;
+  text-align: center;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-align: center;
+  align-items: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+}
+.card .shares .share button {
+  width: 0.42rem;
+  height: 0.42rem;
+}
+.card .shares .share .bottom-btn,
+.card .shares .share button img {
+  width: 100%;
+}
+.card .shares .share span {
+  font-size: 0.38rem;
+  color: #8353eb;
+  margin-left: 0.2rem;
+}
+#selector {
+  opacity: 0;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1;
+}
+#copied {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  width: 200px;
+  height: 23px;
+  line-height: 23px;
+  text-align: center;
+  background: #999;
+  margin-left: -100px;
+  border-radius: 10px;
+  z-index: 100;
+  color: #fff;
+  display: none;
+}
+.ins-box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
