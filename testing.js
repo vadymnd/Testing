@@ -70,6 +70,7 @@ if (language === "uk" || language === "ru") {
   startTestButton.innerHTML = 'Начать тест';
   document.querySelector(".next_tit").innerHTML = "Продолжить просмотр";
   document.querySelector(".copyright.font-noto-regular").innerHTML = "Copyright © 2020 Funtest. Все права защищены.";
+  document.title = 'Funtest - давайте исследовать вашу интересную душу вместе';
 
   testData.map(test => {
     let num = testData.indexOf(test);
