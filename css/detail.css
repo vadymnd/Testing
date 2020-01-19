@@ -127,7 +127,7 @@
   float: right;
   width: 2.94rem;
   height: 0.86rem;
-  background-color: #8353eb;
+  background-color: #e73827;
   border-radius: 1.81rem;
 }
 .card .shares .test .next-btn {
@@ -139,7 +139,7 @@
   float: left;
   width: 2.94rem;
   height: 0.86rem;
-  border: 2px solid #8353eb;
+  border: 2px solid #e73827;
   border-radius: 1.81rem;
   text-align: center;
   display: -ms-flexbox;
@@ -159,7 +159,7 @@
 }
 .card .shares .share span {
   font-size: 0.38rem;
-  color: #8353eb;
+  color: #e73827;
   margin-left: 0.2rem;
 }
 #selector {
